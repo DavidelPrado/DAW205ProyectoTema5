@@ -2,14 +2,14 @@
 create database if not exists DB205DWESProyectoTema5;
 
 --Creacion de la tabla Departamento en la base de datos DB205DWESProyectoTema5
-create table DB205DWESProyectoTema5.Usuario(
+create table if not exists DB205DWESProyectoTema5.Usuario(
     CodUsuario varchar(15),
-    DescUsuario varchar(255),
-    Password sha2(codsusuario&password, 256),
-    Perfil enum("administrador", "usuario"),
-    NumConexiones integer,
+    Password varchar(64) NOT NULL,
+    DescUsuario varchar(255) NOT NULL,
+    NumConexiones int default 0,
     FechaHoraUltimaConexion timestamp,
-    ImagenUsuario blob,
+    Perfil enum("administrador", "usuario") default "usuario",
+    ImagenUsuario mediumblob NULL,
     primary key(CodUsuario)
 )ENGINE=INNODB;
 

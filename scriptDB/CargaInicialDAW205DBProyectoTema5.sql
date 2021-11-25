@@ -1,6 +1,8 @@
---Insertar datos en la tabla Departamento
-insert into DB205DWESProyectoTema4.Departamento(CodDepartamento, DescDepartamento, FechaBaja, VolumenNegocio) VALUES 
-('INF', 'Departamento de informatica', null, 1000.0),
-('CIE', 'Departamento de ciencia', null, 2000.0),
-('HIS', 'Departamento de historia', null, 1000.0);
+--Insertar datos en la tabla Usuario
+use DB205DWESProyectoTema5;
+
+insert into DB205DWESProyectoTema5.Usuario(CodUsuario, Password, DescUsuario) VALUES 
+("DavidP", SHA2("DavidPpaso"), "Usuario de David del Prado"),
+("User", SHA2("Userpaso"), "Usuario de ejemplo");
+
 
