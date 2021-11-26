@@ -24,12 +24,14 @@
         
             echo '<h1><a href=".."><=</a>   PROYECTO TEMA 5 - EJERCICIO 01</h1>';
             
-            if(!isset($_SERVER['PHP_AUTH_USER'])){
+            if($_SERVER['PHP_AUTH_USER']!='admin' || $_SERVER['PHP_AUTH_PW']!='paso'){
                 header('WWW-Authenticate: Basic realm="Prueba"');
                 header('HTTP/1.0 401 Unauthorized');
+                echo "El usuario no puede ser reconocido. No puedes ACCEDER!";
+                exit;
             }else{
-                echo "<p>{$_SERVER['PHP_AUTH_USER']}</p>";
-                echo "<p>{$_SERVER['PHP_AUTH_PW']}</p>";
+                echo "<p>Usuario: {$_SERVER['PHP_AUTH_USER']}</p>";
+                echo "<p>Contraseña: {$_SERVER['PHP_AUTH_PW']}</p>";
             }
         ?>
     </body>

@@ -9,6 +9,9 @@
     </head>
     <body>
         <h1>EJERCICIOS TEMA 5</h1>
+        
+        <a href="mostrarcodigo/muestraConfiguracion.php"><h3>Configuración de la base de datos</h3></a>
+        
         <table class="main">
             <tr>
                 <th>Enunciado</th>
@@ -26,8 +29,8 @@
             </tr>
             <tr>
                 <td>Ejercicio 2-Desarrollo de un control de acceso con identificación del usuario basado en la función header() y en el uso de una tabla “Usuario” de la base de datos. (PDO).</td>
-                <td><a href="codigoPHP/ejercicio02.php">Ejecutar</a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio02.php">Mostrar</a></td>
+                <td><a>Ejecutar</a></td>
+                <td><a>Mostrar</a></td>
             </tr>
         </table>
         <footer>
