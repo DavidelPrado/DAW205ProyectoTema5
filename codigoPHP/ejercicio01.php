@@ -27,7 +27,7 @@
             if($_SERVER['PHP_AUTH_USER']!='admin' || $_SERVER['PHP_AUTH_PW']!='paso'){
                 header('WWW-Authenticate: Basic realm="Prueba"');
                 header('HTTP/1.0 401 Unauthorized');
-                echo "El usuario no puede ser reconocido. No puedes ACCEDER!";
+                echo "El usuario no reconocido.";
                 exit;
             }else{
                 echo "<p>Usuario: {$_SERVER['PHP_AUTH_USER']}</p>";
