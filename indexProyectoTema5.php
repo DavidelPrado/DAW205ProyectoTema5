@@ -17,15 +17,15 @@
                 </tr>
                 <tr>
                     <td><a href="mostrarcodigo/muestraCrearDesarrollo.php">Creacion de la base de datos</a></td>
-                    <td><a>Creacion de la base de datos</a></td>
+                    <td><a href="mostrarcodigo/muestraCrear1&1.php">Creacion de la base de datos</a></td>
                 </tr>
                 <tr>
                     <td><a href="mostrarcodigo/muestraCargaDesarrollo.php">Carga inicial de la base de datos</a></td>
-                    <td><a>Carga inicial de la base de datos</a></td>
+                    <td><a href="mostrarcodigo/muestraCarga1&1.php">Carga inicial de la base de datos</a></td>
                 </tr>
                 <tr>
                     <td><a href="mostrarcodigo/muestraBorrarDesarrollo.php">Eliminación de la base de datos</a></td>
-                    <td><a>Eliminación de la base de datos</a></td>
+                    <td><a href="mostrarcodigo/muestraBorrar1&1.php">Eliminación de la base de datos</a></td>
                 </tr>
                 <tr>
                     <td colspan="2"><a href="mostrarcodigo/muestraConfiguracion.php">Configuración de la base de datos</a></td>
