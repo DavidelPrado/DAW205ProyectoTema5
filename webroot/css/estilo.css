@@ -13,7 +13,7 @@ h3{
     font-weight: normal;
 }
 
-.main{
+.main>table{
     border-collapse: collapse;
     width: 100%;
 }
@@ -21,6 +21,14 @@ h3{
 .main td, .main th{
     border-style: solid;
     padding: 10px;
+}
+
+.main>table:nth-child(1){
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
 }
 
 footer{

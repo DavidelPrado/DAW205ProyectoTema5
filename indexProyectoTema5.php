@@ -9,50 +9,52 @@
     </head>
     <body>
         <h1>EJERCICIOS TEMA 5</h1>
-        <!--
-        <table class="main">
-            <tr>
-                <th>Desarrollo</th>
-                <th>Explotacion</th>
-            </tr>
-            <tr>
-                <td><a href="mostrarcodigo/muestraCrearDesarrollo.php">Creacion de la base de datos</a></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td colspan="2"><a href="mostrarcodigo/muestraConfiguracion.php">Configuración de la base de datos</a></td>
-            </tr>
-        </table>-->
+        <div class="main">
+            <table>
+                <tr>
+                    <th>Desarrollo</th>
+                    <th>Explotación</th>
+                </tr>
+                <tr>
+                    <td><a href="mostrarcodigo/muestraCrearDesarrollo.php">Creacion de la base de datos</a></td>
+                    <td><a>Creacion de la base de datos</a></td>
+                </tr>
+                <tr>
+                    <td><a href="mostrarcodigo/muestraCargaDesarrollo.php">Carga inicial de la base de datos</a></td>
+                    <td><a>Carga inicial de la base de datos</a></td>
+                </tr>
+                <tr>
+                    <td><a href="mostrarcodigo/muestraBorrarDesarrollo.php">Eliminación de la base de datos</a></td>
+                    <td><a>Eliminación de la base de datos</a></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><a href="mostrarcodigo/muestraConfiguracion.php">Configuración de la base de datos</a></td>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <th>Enunciado</th>
+                    <th colspan="2">PDO</th>
+                </tr>
+                <tr>
+                    <td>Ejercicio 0-Mostrar el contenido de las variables superglobales y phpinfo().</td>
+                    <td><a href="codigoPHP/ejercicio00.php">Ejecutar</a></td>
+                    <td><a href="mostrarcodigo/muestraEjercicio00.php">Mostrar</a></td>
+                </tr>
+                <tr>
+                    <td>Ejercicio 1-Desarrollo de un control de acceso con identificación del usuario basado en la función header().</td>
+                    <td><a href="codigoPHP/ejercicio01.php">Ejecutar</a></td>
+                    <td><a href="mostrarcodigo/muestraEjercicio01.php">Mostrar</a></td>
+                </tr>
+                <tr>
+                    <td>Ejercicio 2-Desarrollo de un control de acceso con identificación del usuario basado en la función header() y en el uso de una tabla “Usuario” de la base de datos. (PDO).</td>
+                    <td><a href="codigoPHP/ejercicio02.php">Ejecutar</a></td>
+                    <td><a  href="mostrarcodigo/muestraEjercicio01.php">Mostrar</a></td>
+                </tr>
+            </table>
+        </div>
         
-        <table class="main">
-            <tr>
-                <th>Enunciado</th>
-                <th colspan="2">PDO</th>
-            </tr>
-            <tr>
-                <td>Ejercicio 0-Mostrar el contenido de las variables superglobales y phpinfo().</td>
-                <td><a href="codigoPHP/ejercicio00.php">Ejecutar</a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio00.php">Mostrar</a></td>
-            </tr>
-            <tr>
-                <td>Ejercicio 1-Desarrollo de un control de acceso con identificación del usuario basado en la función header().</td>
-                <td><a href="codigoPHP/ejercicio01.php">Ejecutar</a></td>
-                <td><a href="mostrarcodigo/muestraEjercicio01.php">Mostrar</a></td>
-            </tr>
-            <tr>
-                <td>Ejercicio 2-Desarrollo de un control de acceso con identificación del usuario basado en la función header() y en el uso de una tabla “Usuario” de la base de datos. (PDO).</td>
-                <td><a>Ejecutar</a></td>
-                <td><a  href="mostrarcodigo/muestraEjercicio01.php">Mostrar</a></td>
-            </tr>
-        </table>
         <footer>
             <table>
                 <tr>
